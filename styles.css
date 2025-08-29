@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f0f0f0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+td {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #333;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s;
+}
+
+td.correct {
+  background-color: #4caf50 !important;
+  color: #fff;
+}
+
+td.error {
+  background-color: #f44336;
+  color: #fff;
+}
+
+#listaPalavras {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+}
+
+#listaPalavras li.found {
+  text-decoration: line-through;
+  color: #4caf50;
+}
+
+#corSeletor {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
